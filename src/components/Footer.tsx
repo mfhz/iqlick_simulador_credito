@@ -13,14 +13,14 @@ export const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.facebook.com/Tohootechnology/?locale=es_LA"
+                href="https://www.facebook.com/iqlick.co?locale=es_LA"
                 className="hover:text-primary transition-colors"
                 target="_blank"
               >
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="https://www.instagram.com/tohoo_technology/?hl=es"
+                href="https://www.instagram.com/iqlick.co/"
                 className="hover:text-primary transition-colors"
                 target="_blank"
               >
@@ -44,14 +44,14 @@ export const Footer = () => {
             <ul className="space-y-3 text-background/80">
               <li className="flex items-start gap-2">
                 <Mail className="h-5 w-5 mt-0.5 flex-shrink-0" />
-                <a href="mailto:contacto@iqlick.com" className="hover:text-primary transition-colors">
-                  servicioalcliente@iqlick.co
+                <a href="mailto:web@iqlick.co" className="hover:text-primary transition-colors">
+                  web@iqlick.co
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="h-5 w-5 mt-0.5 flex-shrink-0" />
-                <a href="tel:+573001234567" className="hover:text-primary transition-colors">
-                  +57 302 3195413
+                <a href="tel:+573113526643" className="hover:text-primary transition-colors">
+                  +57 311 3526643
                 </a>
               </li>
               <li className="flex items-start gap-2">

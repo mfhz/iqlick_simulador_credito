@@ -67,8 +67,8 @@ export const FAQ = () => {
             <h3 className="text-xl font-bold mb-2">¿Tienes más preguntas?</h3>
             <p className="text-muted-foreground mb-4">Nuestro equipo está listo para ayudarte en todo momento</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="mailto:servicioalcliente@iqlick.co" className="text-primary font-semibold hover:underline">
-                servicioalcliente@iqlick.co
+              <a href="mailto:web@iqlick.co" className="text-primary font-semibold hover:underline">
+                web@iqlick.co
               </a>
               <span className="hidden sm:inline text-muted-foreground">•</span>
               <a href="tel:+573023195413" className="text-primary font-semibold hover:underline">

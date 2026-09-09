@@ -31,7 +31,7 @@ const entities = [
     logo: "https://agavalceibadiag.blob.core.windows.net/templates/logoAgavalB2C.png",
     url: "",
     description:
-      "Los créditos con Agaval deben tramitarse de manera presencial en el punto físico de iQlick , ubicado en el Centro Comercial Megacentro Medellín.",
+      "Los créditos con Agaval deben tramitarse de manera presencial en el punto físico de iQlick , ubicado en el Centro Comercial Megacentro en Monterrey en Medellín.",
   },
 ];
 
@@ -53,10 +53,12 @@ export const FinancingEntitiesModal = ({ open, onOpenChange }: FinancingEntities
               <div className="flex-1">
                 <h3 className="text-lg font-bold mb-1">{entity.name}</h3>
 
-                <Button size="sm" onClick={() => window.open(entity.url, "_blank")} className="gap-2">
-                  Ir a {entity.name}
-                  <ExternalLink className="h-4 w-4" />
-                </Button>
+                {entity.url && (
+                  <Button size="sm" onClick={() => window.open(entity.url, "_blank")} className="gap-2">
+                    Ir a {entity.name}
+                    <ExternalLink className="h-4 w-4" />
+                  </Button>
+                )}
                 <p className="text-xs text-muted-foreground mt-1">{entity.description}</p>
               </div>
             </div>
