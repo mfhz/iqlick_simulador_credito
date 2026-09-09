@@ -10,7 +10,7 @@ interface FinancingEntitiesModalProps {
 const entities = [
   {
     name: "Addi",
-    logo: "/images/addi-logo.png",
+    logo: `${import.meta.env.BASE_URL}images/addi-logo.png`,
     url: "https://preapproval.addi.com/",
     description: "Solicita tu crédito con Addi de forma rápida y digital",
   },
