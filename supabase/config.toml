@@ -1,0 +1,7 @@
+project_id = "mishxsooleisbczjcbsk"
+
+[functions.get-interest-rate]
+verify_jwt = false
+
+[functions.create-lead]
+verify_jwt = false
