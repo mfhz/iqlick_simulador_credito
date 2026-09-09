@@ -71,8 +71,8 @@ export const FAQ = () => {
                 web@iqlick.co
               </a>
               <span className="hidden sm:inline text-muted-foreground">•</span>
-              <a href="tel:+573023195413" className="text-primary font-semibold hover:underline">
-                +573023195413
+              <a href="tel:+573113526643" className="text-primary font-semibold hover:underline">
+                +57 311 3526643
               </a>
             </div>
           </div>
